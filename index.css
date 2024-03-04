@@ -1,0 +1,135 @@
+*{
+  text-decoration: none;
+  margin: 0px;
+  padding: 0px;
+}
+body{
+  background-image: url("opening3.jpg");
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.wrapper {
+  width: 1100px;
+  margin: auto;
+  position: relative;
+}
+
+.logo a {
+  font-size: 50px;
+  font-weight: 800;
+  float: left;
+  font-family: grunge;
+  color: #11235A;
+}
+
+.menu {
+  float: right;
+}
+
+nav{
+  width: 80%;
+  margin: auto;
+  display: flex;
+  line-height: 80px;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  background: #86B6F6;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+nav ul li{
+  float: left;
+}
+
+nav ul li a{
+  color: black;
+  font-weight: bold;
+  text-align: center;
+  padding: 0px 16px 0px 16px;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+section {
+  margin: auto;
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.kolom {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+p{
+  font-family:'comic sans ms';
+  font-weight: 670;
+  font-size: 40px;
+  margin-bottom: 20px;
+  color: #86B6F6;
+  width: 100%;
+  line-height: 50px;
+}
+.rounded-circle{
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  max-width: 100%;
+  height: auto;
+}
+
+.angel{
+  width: 300px;
+  height: 250px;
+  margin-top: 150px;
+  margin-left: 400px;
+}
+
+a.tbl-biru{
+  background: #FF90BC;
+  border-radius: 20px;
+  margin-top: 20px;
+  padding: 15px 20px 15px 20px;
+  color: #ffffff;
+  cursor: pointer;
+  font-weight: bold;
+}
+a.tbl-biru:hover{
+  background: #7BD3EA;
+  text-decoration: none;
+}
+a.tbl-pink{
+  border-radius: 20px;
+  margin-top: 20px;
+  padding: 15px 20px 15px 20px;
+  color: #ffffff;
+  cursor: pointer;
+  font-weight: bold;
+}
+a.tbl-pink:hover{
+  background: #86B6F6;
+  text-decoration: none;
+}
+p{
+  margin: 30px 0px 30px 0px;
+  padding: 30px 0px 30px 0px;
+}
+
+
