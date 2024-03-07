@@ -3,53 +3,55 @@
   margin: 0px;
   padding: 0px;
 }
-
-h1 {
-  margin-top: 20px; /* Margin atas untuk header */
+body {
+  background-color: #ffcad4;
 }
-
+h1 {
+  text-align: center;
+}
+h4 {
+  text-align: center;
+}
 table {
-  width: 100%; /* Lebar tabel 100% dari lebar layar */
-  border-collapse: collapse; /* Menggabungkan garis antar sel */
+  width: 100%;
+  border-collapse: collapse;
 }
 
 th,
 td {
-  border: 1px solid #000; /* Garis antara sel */
-  padding: 8px; /* Ruang isi dalam sel */
-  text-align: center; /* Posisi teks tengah dalam sel */
+  border: 1px solid #000;
+  padding: 8px;
+  text-align: center;
 }
 
 tr:nth-child(even) {
-  background-color: #ee99c2; /* Warna latar belakang untuk baris genap */
+  background-color: #ee99c2;
 }
 
 tr:nth-child(odd) {
-  background-color: #ee99c2; /* Warna latar belakang untuk baris ganjil */
+  background-color: #ee99c2;
 }
 
 tr:first-child {
-  background-color: #ee99c2; /* Warna latar belakang untuk baris pertama */
+  background-color: #ee99c2;
 }
 
 tr:last-child {
-  background-color: #ff9843; /* Warna latar belakang untuk baris terakhir */
+  background-color: #ee99c2;
 }
 
 th {
-  background-color: #ffbe98; /* Warna latar belakang untuk sel header */
+  background-color: #ed5ab3;
 }
-/* Gaya untuk efek hover pada baris tabel */
+
 tr:hover {
-  background-color: #ffcad4; /* Warna latar belakang saat dihover */
+  background-color: #ffcad4;
 }
 
-/* Gaya untuk efek hover pada sel header */
 th:hover {
-  background-color: #ffcad4; /* Warna latar belakang saat dihover */
+  background-color: #ffcad4;
 }
 
-/* Gaya untuk efek hover pada sel data */
 td:hover {
-  background-color: #ffcad4; /* Warna latar belakang saat dihover */
+  background-color: #ffcad4;
 }
